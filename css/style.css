@@ -9,7 +9,7 @@
 .game{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 95vh;
     width: 100vw;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,6 @@
     position: absolute;
     top: 0;
     font-size: 4rem;
-    z-index: 2;
 }
  
 .score{
@@ -27,8 +26,7 @@
     width: 30vw;
     justify-content: space-evenly;
     position: absolute;
-    top: 70px;
-    z-index: 1;
+    top: 150px;
 }
  
 
@@ -48,7 +46,7 @@
 .rock, .paper, .scissor{
     padding: 0.8rem;
     width: 100px;
-    border-radius: 10px;
+    border-radius: 5px;
     background: rgba(91, 158, 13, 0.39);
     outline: none;
     border-color: rgb(13, 17, 5);
@@ -75,6 +73,14 @@
 .result{
     margin-top: 20px;
     font-size: 1.2rem;
+}
+
+.footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(65, 63, 139);
 }
 
 @media screen and (max-width: 612px)
